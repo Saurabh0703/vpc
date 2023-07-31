@@ -87,3 +87,7 @@ variable "availability_zone2" {
   type        = string
   default     = "ap-northeast-1c"  # Provide a default value or leave it blank if you prefer to pass the value during runtime.
 }
+variable "vpc_cidr_block" {
+  description = "CIDR block for the VPC"
+  type        = string
+}
